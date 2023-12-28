@@ -89,7 +89,7 @@ body {
     position: absolute;
     /* width: 200px; */
     background-color: var(--Very-Dark-Grayish-Blue);
-    background-color: hsl(217deg 19% 35% / 90%);
+    background-color: hsl(217deg 19% 35% /90%);
     display: flex;
     padding: .7rem 3rem;
     gap: 15px;
@@ -97,6 +97,9 @@ body {
     border-radius: .6rem;
     opacity: 0;
     /* z-index: -1; */
+}
+.text{
+    background: white;
 }
 .tool-tip.show {
     opacity: 1;
@@ -128,15 +131,15 @@ body {
         width: 100%;
     }
     .tool-tip {
-        width: 405px;
-        left: -338px;
-        height: 70px;
+        width: 330px;
+        left: -265px;
+        height: 75px;
         align-items: center;
-        bottom: -19px;
-        top: auto;
+        top: 5%;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
+    
     .tool-tip::after {
         visibility: hidden;
     }
